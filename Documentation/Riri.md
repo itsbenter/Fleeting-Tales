@@ -116,7 +116,6 @@ Prices of concessions can be seen on [movie theater wikipage](https://stardewval
     <li>Fries</li>
     <li>Ice Cream Sandwich</li>
     <li>Nachos</li>
-    
     <li>Stardrop Sorbet</li>
   </ul>
 </details>
