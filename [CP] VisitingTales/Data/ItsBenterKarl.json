@@ -52,6 +52,47 @@
       //Neutrals: vegetables -75, flower -80, pearl 797, rabbit's foot 446
       //Dislikes: ginger 829
       //Hates: hot pepper 260
+    },
+    //Concession Tastes
+    {
+      "Action": "EditData",
+      "Target": "Data/ConcessionTastes",
+      "Entries": {
+        "ItsBenterKarl": {
+          "Name": "ItsBenterKarl",
+          "LovedTags": [
+            "Fries",
+            "Ice Cream Sandwich",
+            "Nachos",
+            "Salmon Burger",
+            "Stardrop Sorbet"
+          ],
+          "LikedTags": [
+            "Personal Pizza",
+            "Panzanella Salad",
+            "Apple Slices",
+            "Cappucino Mousse Cake",
+            "Chocolate Popcorn",
+            "Popcorn",
+            "Sour Slimes",
+            "Salted Peanuts",
+            "Sour Slimes",
+            "Truffle Popcorn"
+          ],
+          "DislikedTags": [
+            "Black Licorice",
+            "Cotton Candy",
+            "Hummus Snack Pack",
+            "Jasmine Tea",
+            "Jawbreaker",
+            "Joja Cola",
+            "JojaCorn",
+            "Kale Smoothie",
+            "Rock Candy",
+            "Star Cookie"
+          ]
+        }
+      }
     }
   ]
 }

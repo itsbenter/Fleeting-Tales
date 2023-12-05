@@ -112,10 +112,11 @@ Prices of concessions can be seen on [movie theater wikipage](https://stardewval
 <details>
   <summary>Loves</summary>
   <ul>
+    <li>Cotton Candy</li>
     <li>Fries</li>
     <li>Ice Cream Sandwich</li>
     <li>Nachos</li>
-    <li>Salmon Burger</li>
+    
     <li>Stardrop Sorbet</li>
   </ul>
 </details>
@@ -123,6 +124,7 @@ Prices of concessions can be seen on [movie theater wikipage](https://stardewval
 <details>
   <summary>Likes</summary>
   <ul>
+    <li>Salmon Burger</li>
     <li>Personal Pizza</li>
     <li>Panzanella Salad</li>
     <li>Apple Slices</li>
@@ -140,7 +142,7 @@ Prices of concessions can be seen on [movie theater wikipage](https://stardewval
   <summary>Dislikes</summary>
   <ul>
     <li>Black Licorice</li>
-    <li>Cotton Candy</li>
+    
     <li>Hummus Snack Pack</li>
     <li>Jasmine Tea</li>
     <li>Jawbreaker</li>

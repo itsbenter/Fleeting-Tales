@@ -179,7 +179,7 @@ Enter museum when Diane is inside
 <details>
 <summary>Details</summary>
 <par>
-Diane is by a bookshelf and sees the player. She starts talking about how she's been into archeoology since she was young, as it's her go-to when she's on her own. After a moment, she adds that she's come to accept her situation and feels content.
+Diane is by a bookshelf and sees the player. She starts talking about how she's been into archeology since she was young, as it's her go-to when she's on her own. After a moment, she adds that she's come to accept her situation and feels content.
 </par>
 </details>
 
@@ -297,7 +297,6 @@ Prices of concessions can be seen on [movie theater wikipage](https://stardewval
     <li>Apple Slices</li>
     <li>Chocolate Popcorn</li>
     <li>Popcorn</li>
-    <li>Sour Slimes</li>
     <li>Star Cookie</li>
   </ul>
 </details>

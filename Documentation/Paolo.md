@@ -273,7 +273,6 @@ Prices of concessions can be seen on [movie theater wikipage](https://stardewval
     <li>Ice Cream Sandwich</li>
     <li>Salted Peanuts</li>
     <li>Apple Slices</li>
-    <li>Sour Slimes</li>
     <li>Star Cookie</li>
   </ul>
 </details>

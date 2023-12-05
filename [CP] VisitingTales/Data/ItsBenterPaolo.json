@@ -52,6 +52,46 @@
       //Neutrals: prismatic shard 74, rabbit's foot 446
       //Dislikes: blackberry 410
       //Hates: tulip 591, mead 459
+    },
+    //Concession Tastes
+    {
+      "Action": "EditData",
+      "Target": "Data/ConcessionTastes",
+      "Entries": {
+        "ItsBenterPaolo": {
+          "Name": "ItsBenterPaolo",
+          "LovedTags": [
+            "Rock Candy",
+            "Fries",
+            "Nachos",
+            "Salmon Burger",
+            "Stardrop Sorbet",
+            "Chocolate Popcorn",
+            "Popcorn"
+          ],
+          "LikedTags": [
+            "Jawbreaker",
+            "Sour Slimes",
+            "Truffle Popcorn",
+            "Cotton Candy",
+            "Cappucino Mousse Cake",
+            "Ice Cream Sandwich",
+            "Salted Peanuts",
+            "Apple Slices",
+            "Star Cookie"    
+          ],
+          "DislikedTags": [
+            "Personal Pizza",
+            "Black Licorice",
+            "Jasmine Tea",          
+            "Joja Cola",
+            "JojaCorn",
+            "Kale Smoothie",
+            "Panzanella Salad",
+            "Hummus Snack Pack"
+          ]
+        }
+      }
     }
   ]
 }

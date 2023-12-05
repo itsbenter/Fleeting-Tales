@@ -52,6 +52,46 @@
       //Neutrals: milk -6
       //Dislikes: blackberry 410, triple shot espreso 253, coffee 395
       //Hates: rabbit's foot 446
+    },
+    //Concession Tastes
+    {
+      "Action": "EditData",
+      "Target": "Data/ConcessionTastes",
+      "Entries": {
+        "ItsBenterPaolo": {
+          "Name": "ItsBenterPaolo",
+          "LovedTags": [
+            "Cotton Candy",
+            "Fries",
+            "Ice Cream Sandwich",
+            "Nachos", 
+            "Stardrop Sorbet"            
+          ],
+          "LikedTags": [
+            "Salmon Burger",
+            "Personal Pizza",
+            "Panzanella Salad",
+            "Apple Slices",
+            "Cappucino Mousse Cake",
+            "Chocolate Popcorn",
+            "Popcorn",
+            "Salted Peanuts",
+            "Sour Slimes",
+            "Truffle Popcorn"
+          ],
+          "DislikedTags": [
+            "Black Licorice",
+            "Hummus Snack Pack",
+            "Jasmine Tea",
+            "Jawbreaker",          
+            "Joja Cola",
+            "JojaCorn",
+            "Kale Smoothie",
+            "Rock Candy",
+            "Star Cookie"  
+          ]
+        }
+      }
     }
   ]
 }

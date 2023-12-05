@@ -52,6 +52,45 @@
       //Neutrals: cooking -7, fish -4, rabbit's foot 446, golden pumpkin 373, fruit -79, flowers -80, vegetable -75, artisan goods -26
       //Dislikes: baits -21
       //Hates: pufferfish 128, sea urchin 397
+    },
+    //Concession Tastes
+    {
+      "Action": "EditData",
+      "Target": "Data/ConcessionTastes",
+      "Entries": {
+        "ItsBenterDiane": {
+          "Name": "ItsBenterDiane",
+          "LovedTags": [
+            "Panzanella Salad",
+            "Hummus Snack Pack",
+            "Truffle Popcorn",
+            "Stardrop Sorbet",
+            "Salted Peanuts"
+          ],
+          "LikedTags": [
+            "Cotton Candy",
+            "Cappucino Mousse Cake",
+            "Ice Cream Sandwich",
+            "Salmon Burger",
+            "Apple Slices",
+            "Chocolate Popcorn",
+            "Popcorn",
+            "Star Cookie"    
+          ],
+          "DislikedTags": [
+            "Rock Candy",
+            "Fries",
+            "Nachos",
+            "Jawbreaker",
+            "Personal Pizza",
+            "Black Licorice",
+            "Jasmine Tea",          
+            "Joja Cola",
+            "JojaCorn",
+            "Kale Smoothie"
+          ]
+        }
+      }
     }
   ]
 }
