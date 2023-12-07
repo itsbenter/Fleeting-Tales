@@ -7,6 +7,10 @@
       "AllowValues": "true, false",
       "Section": "PerfectionScore"
     },
+    "MinimumDaysBetweenNPCsIntroduction": {
+      "Default": "7",
+      "AllowValues": "0, 1, 3, 5, 7, 14",
+    }
   },
   "DynamicTokens": [
     //Config
@@ -20,6 +24,48 @@
       "When": {
         "AddedNPCsAffectPerfection": "true",
         "HasFlag |contains=Farm_Eternal": "false"
+      }
+    },
+    {
+      "Name": "MinimumDaysBetweenNPCsIntroductionToken",
+      "Value": "",
+      "When": {
+        "AddedNPCsAffectPerfection": "0"
+      }
+    },
+    {
+      "Name": "MinimumDaysBetweenNPCsIntroductionToken",
+      "Value": "addConversationTopic ItsBenterCT.NewCharacterIntroduced 1",
+      "When": {
+        "AddedNPCsAffectPerfection": "1"
+      }
+    },
+    {
+      "Name": "MinimumDaysBetweenNPCsIntroductionToken",
+      "Value": "addConversationTopic ItsBenterCT.NewCharacterIntroduced 3",
+      "When": {
+        "AddedNPCsAffectPerfection": "3"
+      }
+    },
+    {
+      "Name": "MinimumDaysBetweenNPCsIntroductionToken",
+      "Value": "addConversationTopic ItsBenterCT.NewCharacterIntroduced 5",
+      "When": {
+        "AddedNPCsAffectPerfection": "5"
+      }
+    },
+    {
+      "Name": "MinimumDaysBetweenNPCsIntroductionToken",
+      "Value": "addConversationTopic ItsBenterCT.NewCharacterIntroduced 7",
+      "When": {
+        "AddedNPCsAffectPerfection": "7"
+      }
+    },
+    {
+      "Name": "MinimumDaysBetweenNPCsIntroductionToken",
+      "Value": "addConversationTopic ItsBenterCT.NewCharacterIntroduced 14",
+      "When": {
+        "AddedNPCsAffectPerfection": "14"
       }
     },
     //Alternate schedule coordinates for compatibility

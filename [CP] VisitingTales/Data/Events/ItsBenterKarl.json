@@ -36,10 +36,10 @@
         //Karl 7: I’d better be going @. Don’t want to keep the bus driver waiting.
         //Karl 8: Hey @!
         //Karl 9: Look out for me on weekends! Maybe we can go fishing together. $1
-        "ItsBenterEvent.Karl00/Weather Sunny/DayOfWeek Fri Sat/Time 1500 1800/FreeInventorySlots 1/G PLAYER_FISHING_LEVEL ANY 10": "
+        "ItsBenterEvent.Karl00/Weather Sunny/DayOfWeek Fri Sat/Time 1500 1800/FreeInventorySlots 1/G PLAYER_FISHING_LEVEL ANY 10/!ActiveDialogueEvent ItsBenterCT.NewCharacterIntroduced": "
         CloudCountry/14 23/ItsBenterKarl 16 23 3 farmer 8 23 1 Pam 8 11 2/
         changeName ItsBenterKarl {{i18n:ItsBenterUnmetCharacter}}/
-        broadcastEvent/addConversationTopic ItsBenterCT.KarlIntroduction 5/addConversationTopic ItsBenterCT.KarlIntroduction.1 14/
+        broadcastEvent/addConversationTopic ItsBenterCT.KarlIntroduction 5/addConversationTopic ItsBenterCT.KarlIntroduction.1 14/{{MinimumDaysBetweenNPCsIntroductionToken}}/
         viewport move 7 0 5000/setRunning/
         advancedMove farmer 4 0/advancedMove ItsBenterKarl -2 0/
         emote ItsBenterKarl 16/

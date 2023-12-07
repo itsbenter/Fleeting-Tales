@@ -45,10 +45,10 @@
         //Diane 9: Surely, if you don't mind.
         //Diane 10: Once again, it's a pleasure meeting you @.
         //Lewis 9 *ehem* I expect you to be on your best behavior with Diane.#$b#We planned this tour for quite some time. This must be important to her.#$b#Everyone will need to mind their manners!
-        "ItsBenterEvent.Diane00/Weather Sunny/DayOfWeek Mon Tue Wed/Time 900 1600/G MUSEUM_DONATIONS 45": "
+        "ItsBenterEvent.Diane00/Weather Sunny/DayOfWeek Mon Tue Wed/Time 900 1600/G MUSEUM_DONATIONS 45/!ActiveDialogueEvent ItsBenterCT.NewCharacterIntroduced": "
         libraryTheme/92 91/ItsBenterDiane 97 94 1 Lewis 98 93 1 farmer -100 -100 0/
         changeName ItsBenterDiane {{i18n:ItsBenterUnmetCharacter}}/
-        broadcastEvent/addConversationTopic ItsBenterCT.DianeIntroduction 5/addConversationTopic ItsBenterCT.DianeWaitTime 14/
+        broadcastEvent/addConversationTopic ItsBenterCT.DianeIntroduction 5/addConversationTopic ItsBenterCT.DianeWaitTime 14/{{MinimumDaysBetweenNPCsIntroductionToken}}/
         viewport move 10 0 5000/
         textAboveHead Lewis "{{i18n:ItsBenterEvent.Diane00.Lewis.1}}"/
         advancedMove Lewis false 4 0/faceDirection Lewis 0/advancedMove ItsBenterDiane false 4 0 0 -1/
@@ -142,7 +142,7 @@
         "ItsBenterEvent.Diane02/NpcVisibleHere ItsBenterDiane/Friendship ItsBenterDiane 500": "
         libraryTheme/5 11/ItsBenterDiane 2 11 1 farmer -100 -100 0 Gunther 4 10 2/
         emote ItsBenterDiane 40/pause 200/playSound doorClose/warp farmer 5 9/advancedMove farmer 0 -1/
-        advancedMove ItsBenterDiane 0 1 1 0/pause 750/emote farmer 8/
+        advancedMove ItsBenterDiane 0 1 1 0/pause 750/emote farmer 8/skippable/
         speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane02.Diane.1}}"/
         pause 250/animate ItsBenterDiane false false 100 13 13 0 13 0/
         speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane02.Diane.2}}"/
@@ -153,7 +153,14 @@
         showframe ItsBenterDiane 14/stopAdvancedMoves/end position 3 13
         ",
         //4 Hearts: A Little History
-        "ItsBenterEvent.Diane03/SawEvent ItsBenterEvent.Diane01/SawEvent ItsBenterEvent.Diane02/NpcVisibleHere ItsBenterDiane/Friendship ItsBenterDiane 1000": "",
+        //Diane 1: Oh, hello there @. To what do I owe the pleasure?
+        //Diane 2: Well, 
+        "ItsBenterEvent.Diane03/SawEvent ItsBenterEvent.Diane01/SawEvent ItsBenterEvent.Diane02/NpcVisibleHere ItsBenterDiane/Friendship ItsBenterDiane 1000": "
+        libraryTheme/12 11/ItsBenterDiane 10 10 3 farmer 12 15 0/
+        showFrame ItsBenterDiane 23/pause 200/showFrame ItsBenterDiane 22/emote ItsBenterDiane 40/pause 300/
+        advancedMove farmer 0 -4/faceDirection 3/pause 50/emote farmer 60/showFrame ItsBenterDiane 23/pause 50/playSound harvest/faceDirection ItsBenterDiane 1/
+        speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane03.Diane.1}}"/
+        ",
         //8 Hearts: Adventuring Assistance Required
         "ItsBenterEvent.Diane05/SawEvent ItsBenterEvent.Diane04/NpcVisibleHere ItsBenterDiane/Friendship ItsBenterDiane 2000": ""
       }
