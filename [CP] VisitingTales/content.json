@@ -160,6 +160,14 @@
       "FromFile": "Data/Events/ItsBenterKarl.json, Data/Events/ItsBenterDiane.json, Data/Events/ItsBenterPaolo.json, Data/Events/ItsBenterRiri.json"
     },
     {
+      "LogName": "NPC Map Locations Data",
+      "Action": "Include",
+      "FromFile": "Mods/NPCMapLocations.json",
+      "When": {
+        "HasMod |contains=Bouhm.NPCMapLocations": "true",
+      }
+    },
+    {
       "LogName": "NPCs animation",
       "Action": "EditData",
       "Target": "Data/animationDescriptions",

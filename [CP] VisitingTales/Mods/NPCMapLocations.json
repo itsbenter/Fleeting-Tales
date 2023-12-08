@@ -1,0 +1,35 @@
+{
+    "$schema": "https://smapi.io/schemas/content-patcher.json",
+    "Format": "1.30.0",
+    "Changes": [
+        {
+            "LogName": "Exclude Warp Room in Bus Stop",
+            "Action": "EditData",
+            "Target": "Mods/Bouhm.NPCMapLocations/Locations",
+            "Entries": {
+                "ItsBenter.VisitingTales_NPCWarpRoom": {
+                    "Exclude": true
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+            "Entries": {
+                "ItsBenterKarl": {
+                    "MarkerCropOffset": -1
+                },
+                "ItsBenterDiane": {
+                    "MarkerCropOffset": -4
+                },
+                "ItsBenterPaolo": {
+                    "MarkerCropOffset": -3
+                },
+                "ItsBenterRiri": {
+                    "MarkerCropOffset": -6
+                },
+            }
+        },
+
+    ]
+}
