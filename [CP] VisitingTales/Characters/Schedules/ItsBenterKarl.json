@@ -3,7 +3,7 @@
     "Format": "1.30.0",
     "Changes": [
         {
-            "LogName": "Karl away schdule",
+            "LogName": "Karl away schedule",
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterKarl",
             "Entries": {
@@ -18,6 +18,8 @@
                 "HasSeenEvent |contains=ItsBenterEvent.Karl00": true,
             },
             "Entries": {
+                //1500 From inside the bus goes to the beach's piers to fish
+                //1900 Goes to bus stop to catch a ride home
                 "Fri": "
                 a1500 Beach 34 36 2 ItsBenterKarl_fishingdown/
                 1900 ItsBenter.VisitingTales_NPCWarpRoom 0 0 2
@@ -33,6 +35,10 @@
                 "Random: Mountain,Town,Forest|key=KarlSaturdaySchedule": "Mountain"
             },
             "Entries": {
+                //700 From inside the bus goes to stand in front of Linus tent
+                //1000 Goes to fish in mountain lake alternating between the lake island and west side of the lake
+                //1600 Goes to stand in front of Linus tent
+                //1900 Goes to bus stop to catch a ride home
                 "Sat": "
                 700 Mountain 30 10 0/
                 1000 Mountain 68 24 0 ItsBenterKarl_fishingdown/
@@ -51,6 +57,10 @@
                 "Random: Mountain,Town,Forest|key=KarlSaturdaySchedule": "Town"
             },
             "Entries": {
+                //700 From inside the bus goes to fish in town
+                //1200 Goes to Stardrop Saloon
+                //1530 Goes to fish in beach piers
+                //1900 Goes to bus stop to catch a ride home
                 "Sat": "
                 700 Town 69 58 ItsBenterKarl_fishingright/
                 1000 Town 64 100 ItsBenterKarl_fishingdown/
@@ -69,6 +79,10 @@
                 "Random: Mountain,Town,Forest|key=KarlSaturdaySchedule": "Forest"
             },
             "Entries": {
+                //700 From inside the bus goes to fish in Cindersap Forest near Leah's Cottage
+                //1330 Goes to fish in town
+                //1700 Goes to stand near water in beach
+                //1900 Goes to bus stop to catch a ride home
                 "Sat": "
                 700 Forest 95 38 2 ItsBenterKarl_fishingdown/
                 1330 Town 64 100 ItsBenterKarl_fishingdown/

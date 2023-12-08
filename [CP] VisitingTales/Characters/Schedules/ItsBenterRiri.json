@@ -3,7 +3,7 @@
     "Format": "1.30.0",
     "Changes": [
         {
-            "LogName": "Riri away schdule",
+            "LogName": "Riri away schedule",
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterRiri",
             "Entries": {
@@ -18,6 +18,9 @@
                 "HasSeenEvent |contains=ItsBenterEvent.Paolo10": true
             },
             "Entries": {
+                //900 From inside the bus goes to meet the town's children near the graveyard
+                //1200 Goes to play on the playground
+                //1700 Goes to bus stop to catch a ride home
                 "Sat": "
                 900 Town 32 89 3/
                 1200 Town 24 14 0/

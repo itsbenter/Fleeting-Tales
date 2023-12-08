@@ -3,7 +3,7 @@
     "Format": "1.30.0",
     "Changes": [
         {
-            "LogName": "Diane away schdule",
+            "LogName": "Diane away schedule",
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterDiane",
             "Entries": {
@@ -11,7 +11,7 @@
             }
         },
         {
-            "LogName": "Diane Tuesday",
+            "LogName": "Diane Tuesday schedule",
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterDiane",
             "When": {
@@ -19,6 +19,10 @@
                 "HasConversationTopic |contains=ItsBenterCT.DianeWaitTime": false //After the introduction there'll be gap of 7 days before Diane would start visiting Pelican Town
             },
             "Entries": {
+                //900 From inside the bus goes to the museum and watches Penny tutors the children
+                //1430 Goes to the bridge near the museum standing near Penny and the children
+                //1530 Goes to stand near the fountain near community center
+                //2000 Goes to bus stop to catch a ride home
                 "Tue": "
                 900 ArchaeologyHouse 13 9 2 ItsBenterDiane_readdown/
                 1430 Town 90 98 2/
@@ -37,6 +41,11 @@
                 "Random: Museum,Town|key=DianeMondayWednesdaySchedule": "Museum"
             },
             "Entries": {
+                //900 From inside the bus goes to stand in front of the flower near the saloon
+                //1200 Goes to look at museum's collections
+                //1400 Finds a corner to read inside the museum
+                //1800 Goes to stand beside the river near the museum
+                //2000 Goes to bus stop to catch a ride home
                 "Mon": "GOTO Wed",
                 "Wed": "
                 900 Town 31 77 1/
@@ -60,6 +69,10 @@
                 "Random: Museum,Town|key=DianeMondayWednesdaySchedule": "Town"
             },
             "Entries": {
+                //900 From inside the bus goes to stand in the beach
+                //1300 Goes to saloon for lunch
+                //1600 Goes to stand in town plaza
+                //2000 Goes to bus stop to catch a ride home
                 "Mon": "GOTO Wed",
                 "Wed": "
                 900 Beach 20 24 2/
@@ -79,6 +92,10 @@
                 "{{Weather: valley}}": "rain, storm"
             },
             "Entries": {
+                //900 From inside the bus goes to the museum and read book
+                //1200 Goes to look at museum's collections
+                //1400 Goes to the counter and talk with Gunther
+                //1800 Goes to bus stop to catch a ride home
                 "Mon": "GOTO Wed",
                 "Tue": "GOTO Wed",
                 "Wed": "

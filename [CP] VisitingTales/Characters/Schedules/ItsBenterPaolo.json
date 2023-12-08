@@ -3,7 +3,7 @@
     "Format": "1.30.0",
     "Changes": [
         {
-            "LogName": "Paolo away schdule",
+            "LogName": "Paolo away schedule",
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterPaolo",
             "Entries": {
@@ -18,6 +18,10 @@
                 "HasSeenEvent |contains=ItsBenterEvent.Paolo00": true
             },
             "Entries": {
+                //900 From inside the bus goes to the museum and read book while watching Penny tutors the children
+                //1430 Goes to the bridge near the museum standing near Penny and the children
+                //1600 Goes to look after Diane standing near the fountain near community center
+                //2000 Goes to bus stop to catch a ride home
                 "Tue": "
                 900 ArchaeologyHouse 10 10 1/
                 1430 Town 94 97 3/
@@ -35,6 +39,11 @@
                 "Random: Museum,Town|key=DianeMondayWednesdaySchedule": "Museum"
             },
             "Entries": {
+                //900 From inside the bus goes to look after Diane standing in front of the flower near the saloon
+                //1200 Goes to look after Diane observing museum's collections
+                //1400 Watches Diane reading inside the museum
+                //1800 Goes to look after Diane standing beside the river near the museum
+                //2000 Goes to bus stop to catch a ride home
                 "Mon": "GOTO Wed",
                 "Wed": "
                 900 Town 32 79 0/
@@ -57,6 +66,10 @@
                 "Random: Museum,Town|key=DianeMondayWednesdaySchedule": "Museum"
             },
             "Entries": {
+                //900 From inside the bus goes to look after Diane standing in the beach
+                //1300 Goes to saloon for lunch
+                //1600 Goes to look after Diane in town plaza
+                //2000 Goes to bus stop to catch a ride home
                 "Mon": "GOTO Wed",
                 "Wed": "
                 900 Beach 23 23 2/
@@ -75,6 +88,10 @@
                 "{{Weather: valley}}": "rain, storm"
             },
             "Entries": {
+                //900 From inside the bus goes to the museum and read book
+                //1200 Goes to look after Diane observing museum's collections
+                //1400 Goes to look after Diane in the counter talking with Gunther
+                //1800 Goes to bus stop to catch a ride home
                 "Mon": "GOTO Wed",
                 "Tue": "GOTO Wed",
                 "Wed": "
@@ -107,6 +124,10 @@
                 "HasSeenEvent |contains=ItsBenterEvent.Paolo02": true
             },
             "Entries": {
+                //600 From inside the bus goes to the beach
+                //900 Goes to the bath house
+                //1300 Goes to play pool in Saloon
+                //1600 Goes to bus stop to catch a ride home
                 "Sun": "
                 610 Beach 43 34 2 ItsBenterPaolo_sittingchair/
                 900 BathHouse_Pool 17 10 2 ItsBenterPaolo_sittingbath/
@@ -123,6 +144,9 @@
                 "HasSeenEvent |contains=ItsBenterEvent.Paolo04": true
             },
             "Entries": {
+                //900 From inside the bus goes to meet the town's children near the graveyard
+                //1200 Goes to watch children play on the playground
+                //1700 Goes to bus stop to catch a ride home
                 "Sat": "
                 900 Town 28 91 0/
                 1200 Town 18 16 1/
