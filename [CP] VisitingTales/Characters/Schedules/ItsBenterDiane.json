@@ -15,7 +15,7 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterDiane",
             "When": {
-                "HasSeenEvent |contains=ItsBenterEvent.Diane00": true,
+                "HasSeenEvent |contains=ItsBenter.VisitingTales_Diane00": true,
                 "HasConversationTopic |contains=ItsBenterCT.DianeWaitTime": false //After the introduction there'll be gap of 7 days before Diane would start visiting Pelican Town
             },
             "Entries": {
@@ -36,7 +36,7 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterDiane",
             "When": {
-                "HasSeenEvent |contains=ItsBenterEvent.Diane00": true,
+                "HasSeenEvent |contains=ItsBenter.VisitingTales_Diane00": true,
                 "HasConversationTopic |contains=ItsBenterCT.DianeWaitTime": false,
                 "Random: Museum,Town|key=DianeMondayWednesdaySchedule": "Museum"
             },
@@ -64,7 +64,7 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterDiane",
             "When": {
-                "HasSeenEvent |contains=ItsBenterEvent.Diane00": true,
+                "HasSeenEvent |contains=ItsBenter.VisitingTales_Diane00": true,
                 "HasConversationTopic |contains=ItsBenterCT.DianeWaitTime": false,
                 "Random: Museum,Town|key=DianeMondayWednesdaySchedule": "Town"
             },
@@ -87,7 +87,7 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterDiane",
             "When": {
-                "HasSeenEvent |contains=ItsBenterEvent.Diane00": true,
+                "HasSeenEvent |contains=ItsBenter.VisitingTales_Diane00": true,
                 "HasConversationTopic |contains=ItsBenterCT.DianeWaitTime": false,
                 "{{Weather: valley}}": "rain, storm"
             },
@@ -114,7 +114,7 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterDiane",
             "When": {
-                "HasSeenEvent |contains=ItsBenterEvent.Diane06": true
+                "HasSeenEvent |contains=ItsBenter.VisitingTales_Diane06": true
             },
             "Entries": {
                 "Mon": "GOTO Spring",

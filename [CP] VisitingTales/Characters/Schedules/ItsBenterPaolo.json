@@ -15,7 +15,7 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterPaolo",
             "When": {
-                "HasSeenEvent |contains=ItsBenterEvent.Paolo00": true
+                "HasSeenEvent |contains=ItsBenter.VisitingTales_Paolo00": true
             },
             "Entries": {
                 //900 From inside the bus goes to the museum and read book while watching Penny tutors the children
@@ -35,7 +35,7 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterPaolo",
             "When": {
-                "HasSeenEvent |contains=ItsBenterEvent.Paolo00": true,
+                "HasSeenEvent |contains=ItsBenter.VisitingTales_Paolo00": true,
                 "Random: Museum,Town|key=DianeMondayWednesdaySchedule": "Museum"
             },
             "Entries": {
@@ -62,7 +62,7 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterPaolo",
             "When": {
-                "HasSeenEvent |contains=ItsBenterEvent.Paolo00": true,
+                "HasSeenEvent |contains=ItsBenter.VisitingTales_Paolo00": true,
                 "Random: Museum,Town|key=DianeMondayWednesdaySchedule": "Museum"
             },
             "Entries": {
@@ -84,7 +84,7 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterPaolo",
             "When": {
-                "HasSeenEvent |contains=ItsBenterEvent.Paolo00": true,
+                "HasSeenEvent |contains=ItsBenter.VisitingTales_Paolo00": true,
                 "{{Weather: valley}}": "rain, storm"
             },
             "Entries": {
@@ -110,7 +110,7 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterPaolo",
             "When": {
-                "HasSeenEvent |contains=ItsBenterEvent.Diane06": true
+                "HasSeenEvent |contains=ItsBenter.VisitingTales_Diane06": true
             },
             "Entries": {
                 "Mon": "GOTO Spring",
@@ -121,7 +121,7 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterPaolo",
             "When": {
-                "HasSeenEvent |contains=ItsBenterEvent.Paolo02": true
+                "HasSeenEvent |contains=ItsBenter.VisitingTales_Paolo02": true
             },
             "Entries": {
                 //600 From inside the bus goes to the beach
@@ -141,7 +141,7 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterPaolo",
             "When": {
-                "HasSeenEvent |contains=ItsBenterEvent.Paolo04": true
+                "HasSeenEvent |contains=ItsBenter.VisitingTales_Paolo04": true
             },
             "Entries": {
                 //900 From inside the bus goes to meet the town's children near the graveyard
@@ -159,7 +159,7 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterPaolo",
             "When": {
-                "HasSeenEvent |contains=ItsBenterEvent.Paolo04": true,
+                "HasSeenEvent |contains=ItsBenter.VisitingTales_Paolo04": true,
                 "{{Weather: valley}}": "rain, storm"
             },
             "Entries": {

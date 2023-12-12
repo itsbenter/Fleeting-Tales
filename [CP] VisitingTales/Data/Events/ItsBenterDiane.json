@@ -45,33 +45,33 @@
         //Diane 9: Surely, if you don't mind.
         //Diane 10: Once again, it's a pleasure meeting you @.
         //Lewis 9 *ehem* I expect you to be on your best behavior with Diane.#$b#We planned this tour for quite some time. This must be important to her.#$b#Everyone will need to mind their manners!
-        "ItsBenterEvent.Diane00/Weather Sunny/DayOfWeek Mon Tue Wed/Time 900 1600/G MUSEUM_DONATIONS 45/!ActiveDialogueEvent ItsBenterCT.NewCharacterIntroduced": "
+        "ItsBenter.VisitingTales_Diane00/Weather Sunny/DayOfWeek Mon Tue Wed/Time 900 1600/G MUSEUM_DONATIONS 45/!ActiveDialogueEvent ItsBenterCT.NewCharacterIntroduced": "
         libraryTheme/92 91/ItsBenterDiane 97 94 1 Lewis 98 93 1 farmer -100 -100 0/
         changeName ItsBenterDiane {{i18n:ItsBenterUnmetCharacter}}/
         broadcastEvent/addConversationTopic ItsBenterCT.DianeIntroduction 5/addConversationTopic ItsBenterCT.DianeWaitTime 14/{{MinimumDaysBetweenNPCsIntroductionToken}}/
         viewport move 10 0 5000/
-        textAboveHead Lewis "{{i18n:ItsBenterEvent.Diane00.Lewis.1}}"/
+        textAboveHead Lewis "{{i18n:ItsBenter.VisitingTales_Diane00.Lewis.1}}"/
         advancedMove Lewis false 4 0/faceDirection Lewis 0/advancedMove ItsBenterDiane false 4 0 0 -1/
-        speak Lewis "{{i18n:ItsBenterEvent.Diane00.Lewis.2}}"/
-        speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane00.Diane.1}}"/
-        speak Lewis "{{i18n:ItsBenterEvent.Diane00.Lewis.3}}"/
+        speak Lewis "{{i18n:ItsBenter.VisitingTales_Diane00.Lewis.2}}"/
+        speak ItsBenterDiane "{{i18n:ItsBenter.VisitingTales_Diane00.Diane.1}}"/
+        speak Lewis "{{i18n:ItsBenter.VisitingTales_Diane00.Lewis.3}}"/
         faceDirection ItsBenterDiane 1/pause 200/emote ItsBenterDiane 40/pause 200/
         playSound doorClose/warp farmer 101 90/faceDirection ItsBenterDiane 0/pause 250/
-        textAboveHead Lewis "{{i18n:ItsBenterEvent.Diane00.Lewis.4}}"/
+        textAboveHead Lewis "{{i18n:ItsBenter.VisitingTales_Diane00.Lewis.4}}"/
         advancedMove Lewis false 0 -1/faceDirection Lewis 3/
-        speak Lewis "{{i18n:ItsBenterEvent.Diane00.Lewis.5}}"/
+        speak Lewis "{{i18n:ItsBenter.VisitingTales_Diane00.Lewis.5}}"/
         changeName ItsBenterDiane {{i18n:ItsBenterDiane.Name}}/skippable/
         advancedMove farmer false 0 1/
-        speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane00.Diane.2}}"/
-        quickQuestion#{{i18n:ItsBenterEvent.Diane00.Player.1}}#{{i18n:ItsBenterEvent.Diane00.Player.2}}#{{i18n:ItsBenterEvent.Diane00.Player.3}}(break)friendship ItsBenterDiane 50\\emote ItsBenterDiane 56\\pause 50\\speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane00.Diane.3}}"(break)speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane00.Diane.4}}"\\speak Lewis "{{i18n:ItsBenterEvent.Diane00.Lewis.6}}"(break)speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane00.Diane.5}}"\\speak Lewis "{{i18n:ItsBenterEvent.Diane00.Lewis.7}}"\\emote ItsBenterDiane 16\\pause 200\\speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane00.Diane.6}}"/
+        speak ItsBenterDiane "{{i18n:ItsBenter.VisitingTales_Diane00.Diane.2}}"/
+        quickQuestion#{{i18n:ItsBenter.VisitingTales_Diane00.Player.1}}#{{i18n:ItsBenter.VisitingTales_Diane00.Player.2}}#{{i18n:ItsBenter.VisitingTales_Diane00.Player.3}}(break)friendship ItsBenterDiane 50\\emote ItsBenterDiane 56\\pause 50\\speak ItsBenterDiane "{{i18n:ItsBenter.VisitingTales_Diane00.Diane.3}}"(break)speak ItsBenterDiane "{{i18n:ItsBenter.VisitingTales_Diane00.Diane.4}}"\\speak Lewis "{{i18n:ItsBenter.VisitingTales_Diane00.Lewis.6}}"(break)speak ItsBenterDiane "{{i18n:ItsBenter.VisitingTales_Diane00.Diane.5}}"\\speak Lewis "{{i18n:ItsBenter.VisitingTales_Diane00.Lewis.7}}"\\emote ItsBenterDiane 16\\pause 200\\speak ItsBenterDiane "{{i18n:ItsBenter.VisitingTales_Diane00.Diane.6}}"/
         pause 300/emote Lewis 40/
-        speak Lewis "{{i18n:ItsBenterEvent.Diane00.Lewis.8}}"/
-        speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane00.Diane.9}}"/
+        speak Lewis "{{i18n:ItsBenter.VisitingTales_Diane00.Lewis.8}}"/
+        speak ItsBenterDiane "{{i18n:ItsBenter.VisitingTales_Diane00.Diane.9}}"/
         advancedMove farmer false -1 0/faceDirection farmer 0/pause 50/advancedMove ItsBenterDiane false -3 0/faceDirection ItsBenterDiane 2/
-        speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane00.Diane.10}}"/
+        speak ItsBenterDiane "{{i18n:ItsBenter.VisitingTales_Diane00.Diane.10}}"/
         faceDirection ItsBenterDiane 0/warp ItsBenterDiane -100 -100/
         advancedMove Lewis false -1 0/faceDirection farmer 1/
-        speak Lewis "{{i18n:ItsBenterEvent.Diane00.Lewis.9}}"/
+        speak Lewis "{{i18n:ItsBenter.VisitingTales_Diane00.Lewis.9}}"/
         pause 50/emote player 12/stopAdvancedMoves/end
         ",
         //2 Hearts: Package for Jas
@@ -96,7 +96,7 @@
         //Jas 6: I'll see you later Mrs. Diane
         //
         ////Event would have compatch with Mr. Ginger and SVE's Charlie later on.
-        "ItsBenterEvent.Diane01/Weather Sunny/DayOfWeek Mon Tue Wed/Time 1400 1600/Friendship ItsBenterDiane 500": "
+        "ItsBenter.VisitingTales_Diane01/Weather Sunny/DayOfWeek Mon Tue Wed/Time 1400 1600/Friendship ItsBenterDiane 500": "
         jaunty/31 88/Jas 32 89 3 ItsBenterDiane 24 90 1 farmer -100 -100 0 Penny -100 -100 0/
         addConversationTopic ItsBenterCT.DianePackageForJas 5/
         showFrame Jas 23/
@@ -104,26 +104,26 @@
         advancedMove ItsBenterDiane 3 0 1 1000 1 0 0 -2 3 0/showFrame ItsBenterDiane 12/skippable/
         warp farmer 26 81/
         advancedMove farmer 3 0 0 3/
-        speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane01.Diane.1}}"/
-        speak Jas "{{i18n:ItsBenterEvent.Diane01.Jas.1}}"/
-        speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane01.Diane.2}}"/
-        speak Jas "{{i18n:ItsBenterEvent.Diane01.Jas.2}}"/
+        speak ItsBenterDiane "{{i18n:ItsBenter.VisitingTales_Diane01.Diane.1}}"/
+        speak Jas "{{i18n:ItsBenter.VisitingTales_Diane01.Jas.1}}"/
+        speak ItsBenterDiane "{{i18n:ItsBenter.VisitingTales_Diane01.Diane.2}}"/
+        speak Jas "{{i18n:ItsBenter.VisitingTales_Diane01.Jas.2}}"/
         emote ItsBenterDiane 40/pause 500/
-        speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane01.Diane.3}}"/
-        textAboveHead Jas "{{i18n:ItsBenterEvent.Diane01.Jas.3}}"/
-        speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane01.Diane.4}}"/
+        speak ItsBenterDiane "{{i18n:ItsBenter.VisitingTales_Diane01.Diane.3}}"/
+        textAboveHead Jas "{{i18n:ItsBenter.VisitingTales_Diane01.Jas.3}}"/
+        speak ItsBenterDiane "{{i18n:ItsBenter.VisitingTales_Diane01.Diane.4}}"/
         emote Jas 8/pause 250/
         warp Penny 34 92/
         advancedMove Penny 0 -1 -2 0/faceDirection Penny 0/
-        speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane01.Diane.5}}"/
+        speak ItsBenterDiane "{{i18n:ItsBenter.VisitingTales_Diane01.Diane.5}}"/
         jump Jas 4/emote Jas 20/faceDirection Jas 0/
-        speak Jas "{{i18n:ItsBenterEvent.Diane01.Jas.4}}"/
+        speak Jas "{{i18n:ItsBenter.VisitingTales_Diane01.Jas.4}}"/
         pause 100/showFrame ItsBenterDiane 0/
-        speak Penny "{{i18n:ItsBenterEvent.Diane01.Penny.1}}"/
+        speak Penny "{{i18n:ItsBenter.VisitingTales_Diane01.Penny.1}}"/
         pause 250/
-        speak Penny "{{i18n:ItsBenterEvent.Diane01.Penny.2}}"/
-        textAboveHead Jas "{{i18n:ItsBenterEvent.Diane01.Jas.5}}"/
-        speak Jas "{{i18n:ItsBenterEvent.Diane01.Jas.6}}"/
+        speak Penny "{{i18n:ItsBenter.VisitingTales_Diane01.Penny.2}}"/
+        textAboveHead Jas "{{i18n:ItsBenter.VisitingTales_Diane01.Jas.5}}"/
+        speak Jas "{{i18n:ItsBenter.VisitingTales_Diane01.Jas.6}}"/
         pause 200/advancedMove Jas -3 0/faceDirection ItsBenterDiane 3/advancedMove Penny -14 0/advancedMove Jas 0 1 -10 0/
         emote ItsBenterDiane 40/pause 750/stopAdvancedMoves/end position 29 84
         "
@@ -139,30 +139,30 @@
         //Diane 2: I don't know how you do it, but kudos $1.
         //Diane 3: It's too bad that Gunther here won't disclose the identity of the sloppy curator. 
         //Diane 4: You did good @. You sure are!
-        "ItsBenterEvent.Diane02/NpcVisibleHere ItsBenterDiane/Friendship ItsBenterDiane 500": "
+        "ItsBenter.VisitingTales_Diane02/NpcVisibleHere ItsBenterDiane/Friendship ItsBenterDiane 500": "
         libraryTheme/5 11/ItsBenterDiane 2 11 1 farmer -100 -100 0 Gunther 4 10 2/
         emote ItsBenterDiane 40/pause 200/playSound doorClose/warp farmer 5 9/advancedMove farmer 0 -1/
         advancedMove ItsBenterDiane 0 1 1 0/pause 750/emote farmer 8/skippable/
-        speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane02.Diane.1}}"/
+        speak ItsBenterDiane "{{i18n:ItsBenter.VisitingTales_Diane02.Diane.1}}"/
         pause 250/animate ItsBenterDiane false false 100 13 13 0 13 0/
-        speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane02.Diane.2}}"/
+        speak ItsBenterDiane "{{i18n:ItsBenter.VisitingTales_Diane02.Diane.2}}"/
         emote farmer 56/pause 100/faceDirection ItsBenterDiane 1/
-        speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane02.Diane.3}}"/
+        speak ItsBenterDiane "{{i18n:ItsBenter.VisitingTales_Diane02.Diane.3}}"/
         showframe Gunther 5/emote Gunther 40/
-        speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane02.Diane.4}}"/
+        speak ItsBenterDiane "{{i18n:ItsBenter.VisitingTales_Diane02.Diane.4}}"/
         showframe ItsBenterDiane 14/stopAdvancedMoves/end position 3 13
         ",
         //4 Hearts: A Little History
         //Diane 1: Oh, hello there @. To what do I owe the pleasure?
         //Diane 2: Well, 
-        "ItsBenterEvent.Diane03/SawEvent ItsBenterEvent.Diane01/SawEvent ItsBenterEvent.Diane02/NpcVisibleHere ItsBenterDiane/Friendship ItsBenterDiane 1000": "
+        "ItsBenter.VisitingTales_Diane03/SawEvent ItsBenter.VisitingTales_Diane01/SawEvent ItsBenter.VisitingTales_Diane02/NpcVisibleHere ItsBenterDiane/Friendship ItsBenterDiane 1000": "
         libraryTheme/12 11/ItsBenterDiane 10 10 3 farmer 12 15 0/
         showFrame ItsBenterDiane 23/pause 200/showFrame ItsBenterDiane 22/emote ItsBenterDiane 40/pause 300/
         advancedMove farmer 0 -4/faceDirection 3/pause 50/emote farmer 60/showFrame ItsBenterDiane 23/pause 50/playSound harvest/faceDirection ItsBenterDiane 1/
-        speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane03.Diane.1}}"/
+        speak ItsBenterDiane "{{i18n:ItsBenter.VisitingTales_Diane03.Diane.1}}"/
         ",
         //8 Hearts: Adventuring Assistance Required
-        "ItsBenterEvent.Diane05/SawEvent ItsBenterEvent.Diane04/NpcVisibleHere ItsBenterDiane/Friendship ItsBenterDiane 2000": ""
+        "ItsBenter.VisitingTales_Diane05/SawEvent ItsBenter.VisitingTales_Diane04/NpcVisibleHere ItsBenterDiane/Friendship ItsBenterDiane 2000": ""
       }
     },
     {
@@ -170,7 +170,7 @@
       "Target": "Data/Events/Beach",
       "Entries": {
         //6 Hearts: Medical Assistance Required
-        "ItsBenterEvent.Diane04/SawEvent ItsBenterEvent.Diane03/!Weather Rain/NotSeason Winter/Friendship ItsBenterDiane 1500": ""
+        "ItsBenter.VisitingTales_Diane04/SawEvent ItsBenter.VisitingTales_Diane03/!Weather Rain/NotSeason Winter/Friendship ItsBenterDiane 1500": ""
       }
     },
     {
@@ -178,7 +178,7 @@
       "Target": "Data/Events/BusStop",
       "Entries": {
         //10 Hearts: Diane a Museum Curator
-        "ItsBenterEvent.Diane06/SawEvent ItsBenterEvent.Diane04/SawEvent ItsBenter.Paolo00/Friendship ItsBenterDiane 2500": ""
+        "ItsBenter.VisitingTales_Diane06/SawEvent ItsBenter.VisitingTales_Diane04/SawEvent ItsBenter.Paolo00/Friendship ItsBenterDiane 2500": ""
       }
     }
   ]

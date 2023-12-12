@@ -15,7 +15,7 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterRiri",
             "When": {
-                "HasSeenEvent |contains=ItsBenterEvent.Paolo10": true
+                "HasSeenEvent |contains=ItsBenter.VisitingTales_Paolo10": true
             },
             "Entries": {
                 //900 From inside the bus goes to meet the town's children near the graveyard
@@ -33,7 +33,7 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterRiri",
             "When": {
-                "HasSeenEvent |contains=ItsBenterEvent.Paolo10": true,
+                "HasSeenEvent |contains=ItsBenter.VisitingTales_Paolo10": true,
                 "{{Weather: valley}}": "rain, storm"
             },
             "Entries": {
