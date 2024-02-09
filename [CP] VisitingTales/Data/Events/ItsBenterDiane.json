@@ -7,9 +7,9 @@
       "Target": "Data/Events/Town",
       "Entries": {
         //Introduction event: That Lady Arrived
-        //Conversation Topic: ItsBenterCT.DianeIntroduction
+        //Conversation Topic: ItsBenter.VisitingTales_DianeIntroduction
         //Lewis: "Ah @, Diane said she would like to visit the town again. Isn't that nice?"
-        //Marnie: "I saw Mr. Lewis with that lady. $3#$b#They seemed very happy walking around the town... $2#$e#*sigh*... If only$2"
+        //Marnie: "I saw Mr. Lewis with that lady. $3#$b#They seemed very happy walking around the town... $2#$b#*sigh* $2"
         //Marnie (if another mod makes her stop her thing with Lewis): "I heard Lewis gave a tour of the town.#%b#I hope he treated the lady well..."
         //Sam; "Oh yeah, I saw Lewis and that woman when skateboarding the other day.#$b#Of course, he wasn't pleased seeing me at all. $1" 
         //Gus: "Diane, quite a nice lady isn't she? I wonder what gets her to this town though."
@@ -23,7 +23,7 @@
         //Penny: "I met Lewis and Diane when they walked around the town.#$b#We stopped and had a nice conversation going. $1"
         //
         //Rosa: "News reached me that Lewis gave someone a tour around the town... Of course he didn't bother to show her this far-far away land."
-        //Juliet: "That Diane, bet she comes from money.#$b#Oh sweetheart, it's not only the jewelry that tell." 
+        //Juliet: "That Diane, bet she comes from money.#$b#Oh sweetheart, it's not only the jewelry that tells." 
         //
         //Lewis 1: And here we are
         //Lewis 2: This here is the town's library and museum, all made possible by the taxes from our local businesses.#$b#It's a lot of hard work, but, as you'll soon notice, the collection here has become something quite special.
@@ -45,10 +45,10 @@
         //Diane 9: Surely, if you don't mind.
         //Diane 10: Once again, it's a pleasure meeting you @.
         //Lewis 9 *ehem* I expect you to be on your best behavior with Diane.#$b#We planned this tour for quite some time. This must be important to her.#$b#Everyone will need to mind their manners!
-        "ItsBenter.VisitingTales_Diane00/Weather Sunny/DayOfWeek Mon Tue Wed/Time 900 1600/G MUSEUM_DONATIONS 45/!ActiveDialogueEvent ItsBenterCT.NewCharacterIntroduced": "
+        "ItsBenter.VisitingTales_Diane00/Weather Sunny/DayOfWeek Mon Tue Wed/Time 900 1600/G MUSEUM_DONATIONS 45/!ActiveDialogueEvent ItsBenter.VisitingTales_NewCharacterIntroduced": "
         libraryTheme/92 91/ItsBenterDiane 97 94 1 Lewis 98 93 1 farmer -100 -100 0/
         changeName ItsBenterDiane {{i18n:ItsBenterUnmetCharacter}}/
-        broadcastEvent/addConversationTopic ItsBenterCT.DianeIntroduction 5/addConversationTopic ItsBenterCT.DianeWaitTime 14/{{MinimumDaysBetweenNPCsIntroductionToken}}/
+        broadcastEvent/addConversationTopic ItsBenter.VisitingTales_DianeIntroduction 5/addConversationTopic ItsBenter.VisitingTales_DianeWaitTime 14/addConversationTopic ItsBenter.VisitingTales_NewCharacterIntroduced {{MinDaysBetweenIntroduction}}/
         viewport move 10 0 5000/
         textAboveHead Lewis "{{i18n:ItsBenter.VisitingTales_Diane00.Lewis.1}}"/
         advancedMove Lewis false 4 0/faceDirection Lewis 0/advancedMove ItsBenterDiane false 4 0 0 -1/

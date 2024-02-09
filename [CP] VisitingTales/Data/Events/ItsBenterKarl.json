@@ -7,13 +7,12 @@
       "Target": "Data/Events/BusStop",
       "Entries": {
         //Introduction: A New Fisherman in Town
-        //ItsBenterCT.KarlIntroduction
-        //Pam: Did you met Karl, that tall guy with moustache?#$b#He gave me fish!
-        //Penny: We had a lovely roasted fish for dinner. $1#$e#Mom said she got it from a guy with moustache.
-        //If married to Penny: Mom said she got a fish from a guy with moustache.#$b# Isn't that just so random? $1#$e#You as well honey? What a coincidence.
-        //Linus: Oh Karl, a kind fella that one.#$e#He didn't treat me badly.
-        //Leo: Karl gave Leo a fish. $1#$b#But Leo can also fish! 
-        //Robin: Oh @, have you met Karl? He was fishing on the lake the other day.#$b#Said he'd like to come by again. $1#$e#I totally don't mind seeing a new face around here.
+        //ItsBenter.VisitingTales_KarlIntroduction
+        //Pam: "You know that tall guy with moustache?#$b#He gave me fish!"
+        //Penny: We had a lovely roasted fish for dinner. $1#$e#Mom said she got it from a guy that takes the bus.
+        //If married to Penny: Mom said she got a fish from a guy a that takes the bus.#$b# Isn't that just so random? $1#$e#You as well honey? What a coincidence.
+        //Linus: Oh Karl, looks like a kind fella that one.#$e#He didn't treat me badly.
+        //Robin: @, have you met Karl? He was fishing on the lake the other day.#$b#Said he'd like to come by again. $1#$e#I totally don't mind seeing a new face around here.
         //Sebastian: So this Karl, is he really come all the way here just to fish? 
         //Demetrius: Fishing is fine. In fact, it could help controlling overpopulation.#$e#I'd be sure to tell that Karl guy the next time I see him. $1
         //Maru: I think mom is excited at the prospect of a regular visitor to the mountain.#$b#It can get a bit lonely sometimes.
@@ -21,7 +20,7 @@
         //
         //Susan: Karl? Oh yes, I believe I saw him fishing.#$b#What else can I say?
         //
-        //ItsBenterCT.KarlIntroduction.1
+        //ItsBenter.VisitingTales_KarlIntroduction.1
         //Karl: Hey it's @, we met again!#$e#I hope you are well @. $1#$e#Going to fish sometime?
         //
         //Karl 1: Hey, you are so full of energy. I like that!
@@ -36,10 +35,10 @@
         //Karl 7: I’d better be going @. Don’t want to keep the bus driver waiting.
         //Karl 8: Hey @!
         //Karl 9: Look out for me on weekends! Maybe we can go fishing together. $1
-        "ItsBenter.VisitingTales_Karl00/Weather Sunny/DayOfWeek Fri Sat/Time 1500 1800/FreeInventorySlots 1/G PLAYER_FISHING_LEVEL ANY 10/!ActiveDialogueEvent ItsBenterCT.NewCharacterIntroduced": "
+        "ItsBenter.VisitingTales_Karl00/Weather Sunny/DayOfWeek Fri Sat/Time 1500 1800/FreeInventorySlots 1/G PLAYER_FISHING_LEVEL ANY 10/!ActiveDialogueEvent ItsBenter.VisitingTales_NewCharacterIntroduced": "
         CloudCountry/14 23/ItsBenterKarl 16 23 3 farmer 8 23 1 Pam 8 11 2/
         changeName ItsBenterKarl {{i18n:ItsBenterUnmetCharacter}}/
-        broadcastEvent/addConversationTopic ItsBenterCT.KarlIntroduction 5/addConversationTopic ItsBenterCT.KarlIntroduction.1 14/{{MinimumDaysBetweenNPCsIntroductionToken}}/
+        broadcastEvent/addConversationTopic ItsBenter.VisitingTales_KarlIntroduction 5/addConversationTopic ItsBenter.VisitingTales_KarlIntroduction.1 14/addConversationTopic ItsBenter.VisitingTales_NewCharacterIntroduced {{MinDaysBetweenIntroduction}}/
         viewport move 7 0 5000/setRunning/
         advancedMove farmer 4 0/advancedMove ItsBenterKarl -2 0/
         emote ItsBenterKarl 16/

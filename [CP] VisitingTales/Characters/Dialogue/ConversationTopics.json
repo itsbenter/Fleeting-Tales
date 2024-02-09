@@ -1,13 +1,169 @@
 {
     "$schema": "https://smapi.io/schemas/content-patcher.json",
-    "Format": "1.30.0",
-    "Changes": [
+     "Changes": [
+        //Visiting Tales characters
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters/Dialogue/Karl",
+            "Entries": {
+                "ItsBenter.VisitingTales_KarlIntroduction.1": "{{i18n:KarlIntroduction.1.Karl}}",
+            }
+        },
+        //Base game characters
         {
             "Action": "EditData",
             "Target": "Data/Characters/Dialogue/Lewis",
             "Entries": {
-                "ItsBenterCT.DianeIntroduction": "{{i18n:ItsBenterCT.DianeIntroduction.Lewis}}",
-                "ItsBenterCT.PaoloIntroduction": "{{i18n:ItsBenterCT.PaoloIntroduction.Lewis}}"
+                "ItsBenter.VisitingTales_DianeIntroduction": "{{i18n:DianeIntroduction.Lewis}}",
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters/Dialogue/Marnie",
+            "Entries": {
+                "ItsBenter.VisitingTales_DianeIntroduction": "{{i18n:DianeIntroduction.Marnie_{{MarnieLewisRelationship}}}}",
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters/Dialogue/Sam",
+            "Entries": {
+                "ItsBenter.VisitingTales_DianeIntroduction": "{{i18n:DianeIntroduction.Sam}}",
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters/Dialogue/Gus",
+            "Entries": {
+                "ItsBenter.VisitingTales_DianeIntroduction": "{{i18n:DianeIntroduction.Gus}}",
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters/Dialogue/Caroline",
+            "Entries": {
+                "ItsBenter.VisitingTales_DianeIntroduction": "{{i18n:DianeIntroduction.Caroline}}",
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters/Dialogue/Clint",
+            "Entries": {
+                "ItsBenter.VisitingTales_DianeIntroduction": "{{i18n:DianeIntroduction.Clint}}",
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters/Dialogue/Emily",
+            "Entries": {
+                "ItsBenter.VisitingTales_DianeIntroduction": "{{i18n:DianeIntroduction.Emily}}",
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters/Dialogue/Jas",
+            "Entries": {
+                "ItsBenter.VisitingTales_DianeIntroduction": "{{i18n:DianeIntroduction.Jas}}",
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters/Dialogue/Vincent",
+            "Entries": {
+                "ItsBenter.VisitingTales_DianeIntroduction": "{{i18n:DianeIntroduction.Vincent}}",
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters/Dialogue/Shane",
+            "Entries": {
+                "ItsBenter.VisitingTales_DianeIntroduction": "{{i18n:DianeIntroduction.Shane}}",
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters/Dialogue/Elliot",
+            "Entries": {
+                "ItsBenter.VisitingTales_DianeIntroduction": "{{i18n:DianeIntroduction.Elliot}}",
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters/Dialogue/Penny",
+            "Entries": {
+                "ItsBenter.VisitingTales_DianeIntroduction": "{{i18n:DianeIntroduction.Penny}}",
+                "ItsBenter.VisitingTales_KarlIntroduction": "{{i18n:KarlIntroduction.Penny_{{PennyHome}}}}",
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters/Dialogue/Pam",
+            "Entries": {
+                "ItsBenter.VisitingTales_KarlIntroduction": "{{i18n:KarlIntroduction.Pam}}",
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters/Dialogue/Linus",
+            "Entries": {
+                "ItsBenter.VisitingTales_KarlIntroduction": "{{i18n:KarlIntroduction.Linus}}",
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters/Dialogue/Robin",
+            "Entries": {
+                "ItsBenter.VisitingTales_KarlIntroduction": "{{i18n:KarlIntroduction.Robin}}",
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters/Dialogue/Sebastian",
+            "Entries": {
+                "ItsBenter.VisitingTales_KarlIntroduction": "{{i18n:KarlIntroduction.Sebastian}}",
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters/Dialogue/Demetrius",
+            "Entries": {
+                "ItsBenter.VisitingTales_KarlIntroduction": "{{i18n:KarlIntroduction.Demetrius}}",
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters/Dialogue/Maru",
+            "Entries": {
+                "ItsBenter.VisitingTales_KarlIntroduction": "{{i18n:KarlIntroduction.Maru}}",
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters/Dialogue/Willy",
+            "Entries": {
+                "ItsBenter.VisitingTales_KarlIntroduction": "{{i18n:KarlIntroduction.Willy}}",
+            }
+        },
+        //Other mods characters
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters/Dialogue/Susan",
+            "Entries": {
+                "ItsBenter.VisitingTales_KarlIntroduction": "{{i18n:KarlIntroduction.Susan}}",
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters/Dialogue/Rosa",
+            "Entries": {
+                "ItsBenter.VisitingTales_DianeIntroduction": "{{i18n:DianeIntroduction.Rosa}}",
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters/Dialogue/Juliet",
+            "Entries": {
+                "ItsBenter.VisitingTales_DianeIntroduction": "{{i18n:DianeIntroduction.Juliet}}",
             }
         },
     ]
