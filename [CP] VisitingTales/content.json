@@ -1,15 +1,14 @@
 {
   "$schema": "https://smapi.io/schemas/content-patcher.json",
-  "Format": "1.30.0",
+  "Format": "2.0.0",
   "ConfigSchema": {
     "AddedNPCsAffectPerfection": {
       "Default": "false",
       "AllowValues": "true, false",
       "Section": "PerfectionScore"
     },
-    "MinimumDaysBetweenNPCsIntroduction": {
+    "MinDaysBetweenIntroduction": {
       "Default": "7",
-      "AllowValues": "0, 1, 3, 5, 7, 14",
     }
   },
   "DynamicTokens": [
@@ -23,64 +22,21 @@
       "Value": "true",
       "When": {
         "AddedNPCsAffectPerfection": "true",
-        "HasFlag |contains=Farm_Eternal": "false"
-      }
-    },
-    {
-      "Name": "MinimumDaysBetweenNPCsIntroductionToken",
-      "Value": "",
-      "When": {
-        "AddedNPCsAffectPerfection": "0"
-      }
-    },
-    {
-      "Name": "MinimumDaysBetweenNPCsIntroductionToken",
-      "Value": "addConversationTopic ItsBenterCT.NewCharacterIntroduced 1",
-      "When": {
-        "AddedNPCsAffectPerfection": "1"
-      }
-    },
-    {
-      "Name": "MinimumDaysBetweenNPCsIntroductionToken",
-      "Value": "addConversationTopic ItsBenterCT.NewCharacterIntroduced 3",
-      "When": {
-        "AddedNPCsAffectPerfection": "3"
-      }
-    },
-    {
-      "Name": "MinimumDaysBetweenNPCsIntroductionToken",
-      "Value": "addConversationTopic ItsBenterCT.NewCharacterIntroduced 5",
-      "When": {
-        "AddedNPCsAffectPerfection": "5"
-      }
-    },
-    {
-      "Name": "MinimumDaysBetweenNPCsIntroductionToken",
-      "Value": "addConversationTopic ItsBenterCT.NewCharacterIntroduced 7",
-      "When": {
-        "AddedNPCsAffectPerfection": "7"
-      }
-    },
-    {
-      "Name": "MinimumDaysBetweenNPCsIntroductionToken",
-      "Value": "addConversationTopic ItsBenterCT.NewCharacterIntroduced 14",
-      "When": {
-        "AddedNPCsAffectPerfection": "14"
+        "HasFlag |contains= Farm_Eternal": "false"
       }
     },
     //Alternate schedule coordinates for compatibility
-    {
-      
-    }
   ],
   "Changes": [
+    //Location / map data
     {
-      "LogName": "Load NPC Warp Room Map",
+      "LogName": "Load NPC warp room map",
       "Action": "Load",
       "Target": "Maps/ItsBenter.VisitingTales_NPCWarpRoom",
       "FromFile": "{{Target}}.tmx"
     },
     {
+      "LogName": "Add location data",
       "Action": "EditData",
       "Target": "Data/Locations",
       "Entries": {
@@ -114,6 +70,7 @@
         }
       ]
     },
+    //NPC Data
     {
       "LogName": "NPCs base portraits",
       "Action": "Load",
@@ -139,15 +96,15 @@
       "FromFile": "blank.json"
     },
     {
+      "LogName": "NPCs dialogue",
+      "Action": "Include",
+      "FromFile": "Characters/Dialogue/ItsBenterKarl.json, Characters/Dialogue/ItsBenterDiane.json, Characters/Dialogue/ItsBenterPaolo.json, Characters/Dialogue/ItsBenterRiri.json"
+    },
+    {
       "LogName": "NPCs blank schedules",
       "Action": "Load",
       "Target": "Characters/Schedules/ItsBenterKarl, Characters/Schedules/ItsBenterDiane, Characters/Schedules/ItsBenterPaolo, Characters/Schedules/ItsBenterRiri",
       "FromFile": "blank.json"
-    },
-    {
-      "LogName": "NPCs dialogue",
-      "Action": "Include",
-      "FromFile": "Characters/Dialogue/ItsBenterKarl.json, Characters/Dialogue/ItsBenterDiane.json, Characters/Dialogue/ItsBenterPaolo.json, Characters/Dialogue/ItsBenterRiri.json"
     },
     {
       "LogName": "NPCs schedules",
@@ -160,11 +117,11 @@
       "FromFile": "Data/Events/ItsBenterKarl.json, Data/Events/ItsBenterDiane.json, Data/Events/ItsBenterPaolo.json, Data/Events/ItsBenterRiri.json"
     },
     {
-      "LogName": "NPC Map Locations Data",
+      "LogName": "NPC map locations data",
       "Action": "Include",
       "FromFile": "Mods/NPCMapLocations.json",
       "When": {
-        "HasMod |contains=Bouhm.NPCMapLocations": "true",
+        "HasMod |contains= Bouhm.NPCMapLocations": "true",
       }
     },
     {
