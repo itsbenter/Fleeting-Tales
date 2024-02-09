@@ -1,7 +1,6 @@
 {
     "$schema": "https://smapi.io/schemas/content-patcher.json",
-    "Format": "1.30.0",
-    "Changes": [
+     "Changes": [
         {
             "LogName": "Karl away schedule",
             "Action": "EditData",
@@ -15,7 +14,7 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterKarl",
             "When": {
-                "HasSeenEvent |contains=ItsBenter.VisitingTales_Karl00": true,
+                "HasSeenEvent |contains= ItsBenter.VisitingTales_Karl00": true,
             },
             "Entries": {
                 //1500 From inside the bus goes to the beach's piers to fish
@@ -31,8 +30,8 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterKarl",
             "When": {
-                "HasSeenEvent |contains=ItsBenter.VisitingTales_Karl00": true,
-                "Random: Mountain,Town,Forest|key=KarlSaturdaySchedule": "Mountain"
+                "HasSeenEvent |contains= ItsBenter.VisitingTales_Karl00": true,
+                "Random: Mountain,Town,Forest |key= KarlSaturdaySchedule": "Mountain"
             },
             "Entries": {
                 //700 From inside the bus goes to stand in front of Linus tent
@@ -53,8 +52,8 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterKarl",
             "When": {
-                "HasSeenEvent |contains=ItsBenter.VisitingTales_Karl00": true,
-                "Random: Mountain,Town,Forest|key=KarlSaturdaySchedule": "Town"
+                "HasSeenEvent |contains= ItsBenter.VisitingTales_Karl00": true,
+                "Random: Mountain,Town,Forest |key= KarlSaturdaySchedule": "Town"
             },
             "Entries": {
                 //700 From inside the bus goes to fish in town
@@ -76,7 +75,7 @@
             "Target": "Characters/Schedules/ItsBenterKarl",
             "When": {
                 "HasSeenEvent |contains=ItsBenter.VisitingTales_Karl00": true,
-                "Random: Mountain,Town,Forest|key=KarlSaturdaySchedule": "Forest"
+                "Random: Mountain,Town,Forest |key= KarlSaturdaySchedule": "Forest"
             },
             "Entries": {
                 //700 From inside the bus goes to fish in Cindersap Forest near Leah's Cottage
@@ -96,7 +95,7 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterKarl",
             "When": {
-                "HasSeenEvent |contains=ItsBenter.VisitingTales_Karl04": true
+                "HasSeenEvent |contains= ItsBenter.VisitingTales_Karl04": true
             },
             "Entries": {
                 "Fri": "GOTO Spring"

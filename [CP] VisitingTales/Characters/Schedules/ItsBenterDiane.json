@@ -1,6 +1,5 @@
 {
     "$schema": "https://smapi.io/schemas/content-patcher.json",
-    "Format": "1.30.0",
     "Changes": [
         {
             "LogName": "Diane away schedule",
@@ -15,8 +14,8 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterDiane",
             "When": {
-                "HasSeenEvent |contains=ItsBenter.VisitingTales_Diane00": true,
-                "HasConversationTopic |contains=ItsBenterCT.DianeWaitTime": false //After the introduction there'll be gap of 7 days before Diane would start visiting Pelican Town
+                "HasSeenEvent |contains= ItsBenter.VisitingTales_Diane00": true,
+                "HasConversationTopic |contains= ItsBenter.VisitingTales_DianeWaitTime": false //After the introduction there'll be gap of 7 days before Diane would start visiting Pelican Town
             },
             "Entries": {
                 //900 From inside the bus goes to the museum and watches Penny tutors the children
@@ -36,9 +35,9 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterDiane",
             "When": {
-                "HasSeenEvent |contains=ItsBenter.VisitingTales_Diane00": true,
-                "HasConversationTopic |contains=ItsBenterCT.DianeWaitTime": false,
-                "Random: Museum,Town|key=DianeMondayWednesdaySchedule": "Museum"
+                "HasSeenEvent |contains= ItsBenter.VisitingTales_Diane00": true,
+                "HasConversationTopic |contains= ItsBenter.VisitingTales_DianeWaitTime": false,
+                "Random: Museum,Town |key= DianeMondayWednesdaySchedule": "Museum"
             },
             "Entries": {
                 //900 From inside the bus goes to stand in front of the flower near the saloon
@@ -64,9 +63,9 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterDiane",
             "When": {
-                "HasSeenEvent |contains=ItsBenter.VisitingTales_Diane00": true,
-                "HasConversationTopic |contains=ItsBenterCT.DianeWaitTime": false,
-                "Random: Museum,Town|key=DianeMondayWednesdaySchedule": "Town"
+                "HasSeenEvent |contains= ItsBenter.VisitingTales_Diane00": true,
+                "HasConversationTopic |contains= ItsBenter.VisitingTales_DianeWaitTime": false,
+                "Random: Museum,Town |key= DianeMondayWednesdaySchedule": "Town"
             },
             "Entries": {
                 //900 From inside the bus goes to stand in the beach
@@ -87,8 +86,8 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterDiane",
             "When": {
-                "HasSeenEvent |contains=ItsBenter.VisitingTales_Diane00": true,
-                "HasConversationTopic |contains=ItsBenterCT.DianeWaitTime": false,
+                "HasSeenEvent |contains= ItsBenter.VisitingTales_Diane00": true,
+                "HasConversationTopic |contains= ItsBenter.VisitingTales_DianeWaitTime": false,
                 "{{Weather: valley}}": "rain, storm"
             },
             "Entries": {
@@ -114,7 +113,7 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterDiane",
             "When": {
-                "HasSeenEvent |contains=ItsBenter.VisitingTales_Diane06": true
+                "HasSeenEvent |contains= ItsBenter.VisitingTales_Diane06": true
             },
             "Entries": {
                 "Mon": "GOTO Spring",
