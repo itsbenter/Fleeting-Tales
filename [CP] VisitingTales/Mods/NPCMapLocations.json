@@ -1,7 +1,6 @@
 {
     "$schema": "https://smapi.io/schemas/content-patcher.json",
-    "Format": "1.30.0",
-    "Changes": [
+     "Changes": [
         {
             "LogName": "Exclude Warp Room in Bus Stop",
             "Action": "EditData",
