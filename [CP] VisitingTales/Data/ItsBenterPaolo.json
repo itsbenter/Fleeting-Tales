@@ -17,10 +17,10 @@
           "BirthDay": 10,
           "HomeRegion": "Other",
           //Social features
-          "Calendar": "Never",
+          "Calendar": "HiddenAlways",
           "SocialTab": "HiddenUntilMet",
           "CanVisitIsland": false,
-          "IntroductionsQuest": true,
+          "IntroductionsQuest": false,
           "PerfectionScore": "{{AddedNPCsAffectPerfectionToken}}",
           "EndSlideShow": "TrailingGroup",
           //Spawn rules

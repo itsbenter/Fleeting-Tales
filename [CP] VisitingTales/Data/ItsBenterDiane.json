@@ -17,12 +17,15 @@
           "BirthDay": 25,
           "HomeRegion": "Other",
           //Social features
-          "Calendar": "Never",
+          "CanCommentOnPurchasedShopItems": false,
+          "Calendar": "HiddenAlways",
           "SocialTab": "HiddenUntilMet",
           "CanVisitIsland": false,
-          "IntroductionsQuest": true,
+          "IntroductionsQuest": false,
           "PerfectionScore": "{{AddedNPCsAffectPerfectionToken}}",
           "EndSlideShow": "TrailingGroup",
+          //Dumpster diving
+          "DumpsterDiveFriendshipEffect": -50,
           //Spawn rules
           "UnlockConditions": "MUSEUM_DONATIONS 45",
           "Home": [
@@ -35,7 +38,22 @@
               },
               "Direction": "down"
             }
-          ]
+          ],
+          //Appearance & sprite
+          "Appearance": [
+            {
+              "Id": "WinterOutdoorOutfit",
+              "Condition": true,
+              "Season": "winter",
+              "Indoors": false,
+              "Outdoors": true,
+              "Portrait": "Portraits/ItsBenterDiane_WinterOutdoorOutfit",
+              "Sprite": "Characters/ItsBenterDiane_WinterOutdoorOutfit",
+              "IsIslandAttire": false,
+              "Precedence": -1000,
+              "Weight": 0
+            }
+          ],
         }
       }
     },
