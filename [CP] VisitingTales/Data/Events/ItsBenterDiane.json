@@ -63,7 +63,23 @@
         changeName ItsBenterDiane {{i18n:ItsBenterDiane.Name}}/skippable/
         advancedMove farmer false 0 1/
         speak ItsBenterDiane "{{i18n:ItsBenter.VisitingTales_Diane00.Diane.2}}"/
-        quickQuestion#{{i18n:ItsBenter.VisitingTales_Diane00.Player.1}}#{{i18n:ItsBenter.VisitingTales_Diane00.Player.2}}#{{i18n:ItsBenter.VisitingTales_Diane00.Player.3}}(break)friendship ItsBenterDiane 50\\emote ItsBenterDiane 56\\pause 50\\speak ItsBenterDiane "{{i18n:ItsBenter.VisitingTales_Diane00.Diane.3}}"(break)speak ItsBenterDiane "{{i18n:ItsBenter.VisitingTales_Diane00.Diane.4}}"\\speak Lewis "{{i18n:ItsBenter.VisitingTales_Diane00.Lewis.6}}"(break)speak ItsBenterDiane "{{i18n:ItsBenter.VisitingTales_Diane00.Diane.5}}"\\speak Lewis "{{i18n:ItsBenter.VisitingTales_Diane00.Lewis.7}}"\\emote ItsBenterDiane 16\\pause 200\\speak ItsBenterDiane "{{i18n:ItsBenter.VisitingTales_Diane00.Diane.6}}"/
+
+        quickQuestion#
+        {{i18n:ItsBenter.VisitingTales_Diane00.Player.1}}#
+        {{i18n:ItsBenter.VisitingTales_Diane00.Player.2}}#
+        {{i18n:ItsBenter.VisitingTales_Diane00.Player.3}}
+        (break)
+        friendship ItsBenterDiane 50\\emote ItsBenterDiane 56\\pause 50\\
+        speak ItsBenterDiane "{{i18n:ItsBenter.VisitingTales_Diane00.Diane.3}}"
+        (break)
+        speak ItsBenterDiane "{{i18n:ItsBenter.VisitingTales_Diane00.Diane.4}}"\\
+        speak Lewis "{{i18n:ItsBenter.VisitingTales_Diane00.Lewis.6}}"
+        (break)
+        speak ItsBenterDiane "{{i18n:ItsBenter.VisitingTales_Diane00.Diane.5}}"\\
+        speak Lewis "{{i18n:ItsBenter.VisitingTales_Diane00.Lewis.7}}"\\
+        emote ItsBenterDiane 16\\pause 200\\
+        speak ItsBenterDiane "{{i18n:ItsBenter.VisitingTales_Diane00.Diane.6}}"/
+        
         pause 300/emote Lewis 40/
         speak Lewis "{{i18n:ItsBenter.VisitingTales_Diane00.Lewis.8}}"/
         speak ItsBenterDiane "{{i18n:ItsBenter.VisitingTales_Diane00.Diane.9}}"/

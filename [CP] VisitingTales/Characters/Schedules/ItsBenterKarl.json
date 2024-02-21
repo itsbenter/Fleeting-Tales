@@ -14,7 +14,7 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterKarl",
             "When": {
-                "HasSeenEvent |contains= ItsBenter.VisitingTales_Karl00": true,
+                "HasSeenEvent |contains=ItsBenter.VisitingTales_Karl00": true,
             },
             "Entries": {
                 //1500 From inside the bus goes to the beach's piers to fish
@@ -30,7 +30,7 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterKarl",
             "When": {
-                "HasSeenEvent |contains= ItsBenter.VisitingTales_Karl00": true,
+                "HasSeenEvent |contains=ItsBenter.VisitingTales_Karl00": true,
                 "Random: Mountain,Town,Forest |key= KarlSaturdaySchedule": "Mountain"
             },
             "Entries": {
@@ -52,7 +52,7 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterKarl",
             "When": {
-                "HasSeenEvent |contains= ItsBenter.VisitingTales_Karl00": true,
+                "HasSeenEvent |contains=ItsBenter.VisitingTales_Karl00": true,
                 "Random: Mountain,Town,Forest |key= KarlSaturdaySchedule": "Town"
             },
             "Entries": {
@@ -95,7 +95,7 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterKarl",
             "When": {
-                "HasSeenEvent |contains= ItsBenter.VisitingTales_Karl04": true
+                "HasSeenEvent |contains=ItsBenter.VisitingTales_Karl04": true
             },
             "Entries": {
                 "Fri": "GOTO Spring"
