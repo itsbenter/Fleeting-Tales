@@ -22,9 +22,88 @@
       "Value": "true",
       "When": {
         "AddedNPCsAffectPerfection": "true",
-        "HasFlag |contains= Farm_Eternal": "false"
+        "HasFlag |contains=Farm_Eternal": "false"
       }
     },
+    //Dialogue Randomization
+    {
+      "Name": "DianeRegularDialogue",
+      "Value": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 00H-2, 00H-3, 00H-4, 00H-5, 00H-6, 00H-7}}}}",
+    },
+    {
+      "Name": "DianeRegularDialogue",
+      "Value": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 00H-2, 00H-3, 00H-4, 00H-6, 02H-1, 02H-2, 02H-3, 02H-4, 02H-5, 02H-6, 02H-7, 02H-8, 02H-9}}}}",
+      "When": {
+        "Hearts:ItsBenterDiane": "{{Range: 2, 3}}"
+      }
+    },
+    {
+      "Name": "DianeRegularDialogue",
+      "Value": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 00H-6, 02H-1, 02H-3, 02H-4, 02H-6, 02H-7, 02H-9, 04H-1, 04H-2, 04H-3, 04H-4, 04H-5, 04H-6, 04H-7, 04H-8, 04H-9}}}}",
+      "When": {
+        "Hearts:ItsBenterDiane": "{{Range: 4, 5}}",
+      }
+    },
+    {
+      "Name": "DianeRegularDialogue",
+      "Value": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 00H-6, 02H-1, 02H-3, 02H-4, 02H-6, 02H-7, 02H-9, 04H-1, 04H-2, 04H-3, 04H-4, 04H-5, 04H-6, 04H-7, 04H-8, 04H-9, 04H-Spring-1, 04H-Spring-2, 04H-Spring-3}}}}",
+      "When": {
+        "Hearts:ItsBenterDiane": "{{Range: 4, 5}}",
+        "Season": "Spring"
+      }
+    },
+    {
+      "Name": "DianeRegularDialogue",
+      "Value": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 02H-3, 02H-6, 02H-7, 02H-9, 04H-1, 04H-2, 04H-3, 04H-4, 04H-5, 04H-6, 04H-7, 04H-8, 04H-9, 06H-1, 06H-2, 06H-3, 06H-4, 06H-5, 06H-6, 06H-7, 06H-8, 06H-9, 06H-10}}}}",
+      "When": {
+        "Hearts:ItsBenterDiane": "{{Range: 6, 7}}",
+      }
+    },
+    {
+      "Name": "DianeRegularDialogue",
+      "Value": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 02H-3, 02H-6, 02H-9, 04H-1, 04H-2, 04H-3, 04H-4, 04H-5, 04H-8, 06H-1, 06H-2, 06H-3, 06H-5, 06H-6, 06H-7, 06H-8, 06H-9, 06H-10, 08H-1, 08H-2, 08H-3, 08H-4, 08H-5, 08H-6, 08H-7, 08H-8, 08H-9}}}}",
+      "When": {
+        "Hearts:ItsBenterDiane": "{{Range: 8, 9}}",
+      }
+    },
+    {
+      "Name": "DianeRegularDialogue",
+      "Value": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 02H-3, 02H-9, 04H-1, 04H-3, 04H-4, 04H-5, 04H-8, 06H-1, 06H-2, 06H-3, 06H-5, 06H-6, 06H-7, 06H-8, 06H-9, 06H-10, 08H-1, 08H-2, 08H-3, 08H-5, 08H-6, 08H-7, 08H-8, 08H-9, 10H-1, 10H-2, 10H-3, 10H-4, 10H-5, 10H-6, 10H-7, 10H-8, 10H-9, 10H-10}}}}",
+      "When": {
+        "Hearts:ItsBenterDiane": "10",
+        "HasSeenEvent |contains=ItsBenter.VisitingTales_Diane06": false
+      }
+    },
+    {
+      "Name": "DianeRegularDialogue",
+      "Value": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 02H-3, 02H-9, 04H-1, 04H-3, 04H-4, 04H-5, 04H-8, 06H-1, 06H-2, 06H-3, 06H-5, 06H-6, 06H-7, 06H-8, 06H-9, 06H-10, 08H-1, 08H-2, 08H-3, 08H-5, 08H-6, 08H-7, 08H-8, 08H-9, 10H-1, 10H-2, 10H-3, 10H-4, 10H-5, 10H-6, 10H-7, 10H-8, 10H-9, 10H-10, 10H-Curator-1, 10H-Curator-2, 10H-Curator-3, 10H-Curator-4, 10H-Curator-5, 10H-Curator-6}}}}",
+      "When": {
+        "Hearts:ItsBenterDiane": "10",
+        "HasSeenEvent |contains=ItsBenter.VisitingTales_Diane06": true
+      }
+    },
+    //Conversation topic tweak
+    {
+      "Name": "PennyHome",
+      "Value": "LivingWithPam",
+    },
+    {
+      "Name": "PennyHome",
+      "Value": "NotLivingWithPam",
+      "When": {
+        "{{Spouse: anyPlayer}}": "Penny"
+      }
+    },
+    {
+      "Name": "MarnieLewisRelationship",
+      "Value": "RelationshipWithLewis",
+    },
+    //{
+      //"Name": "MarnieLewisRelationship",
+      //"Value": "NoRelationshipWithLewis",
+      //"When": { 
+      //}
+    //},
     //Alternate schedule coordinates for compatibility
   ],
   "Changes": [
@@ -121,7 +200,7 @@
       "Action": "Include",
       "FromFile": "Mods/NPCMapLocations.json",
       "When": {
-        "HasMod |contains= Bouhm.NPCMapLocations": "true",
+        "HasMod |contains=Bouhm.NPCMapLocations": "true",
       }
     },
     {

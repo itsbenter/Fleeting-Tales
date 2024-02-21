@@ -1,12 +1,13 @@
 ﻿{
-  "$schema":"https://smapi.io/schemas/content-patcher.json",
-  "Format": "1.30.0",
+  "$schema": "https://smapi.io/schemas/content-patcher.json",
   "Changes": [
     {
       "Action": "EditData",
       "Target": "Characters/Dialogue/ItsBenterDiane",
-      "Entries": {
-        
+      "Entries": { 
+        "Mon": "{{DianeRegularDialogue}}",
+        "Tue": "{{DianeRegularDialogue}}",
+        "Wed": "{{DianeRegularDialogue}}",
       }
     }
   ]
