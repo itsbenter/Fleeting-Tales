@@ -278,3 +278,32 @@ Prices of concessions can be seen on [movie theater wikipage](https://stardewval
 ## Notes
 
 * Karl's appearance and personality is inspired by [ASMR Outdoorsman](https://www.youtube.com/@The-ASMR-Outdoorsman)
+
+<!-- 
+The vibes
+- Generous
+- Outgoing
+- Down to earth
+- Likes fishing / outdoor in general
+- Practical
+- Traditional
+- Sees himself as not very bright but hardworking
+- Believe in Yoba
+
+
+- Karl has settled well in his daily routine and started to look for stuff to break the rhytms
+  - Karl isn't unhappy he is content where he is
+  - Karl thinking of having more connection with nature
+  - Karl decided to go back to his activites he do when he was younger, fishing
+    - Very good in fishing
+- Karl has close relationship with his parents, especially his father
+  - Grew up in rural area
+  - Spent his vacation camping with his father
+  - Has relatively happy childhood
+- Karl loves his wife, Emma
+  - Karl wants to make Emma happy
+  - Karl wants to share more of his life with Emma
+  - Karl take into account Emma when making his decision, a lot
+- Karl believes in Yoba
+  - Karl doesn't think much of his belief
+-->
