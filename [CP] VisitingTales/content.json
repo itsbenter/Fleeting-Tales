@@ -26,27 +26,147 @@
       }
     },
     //Dialogue Randomization
+    //Karl dialogue randomization
+    {
+      "Name": "KarlRegularDialogue",
+      "Value": "0H-1, 0H-2, 0H-3",
+    },
+    {
+      "Name": "KarlRegularDialogue",
+      "Value": "0H-1, 0H-2, 0H-3, 2H-1, 2H-2, 2H-3, 2H-4, 2H-5, 2H-6, 2H-7",
+      "When": {
+        "Hearts:ItsBenterKarl": "{{Range: 2, 3}}"
+      }
+    },
+    {
+      "Name": "KarlRegularDialogue",
+      "Value": "0H-3, 2H-1, 2H-2, 2H-4, 2H-5, 2H-6, 2H-7, 4H-1, 4H-2, 4H-3, 4H-4, 4H-5, 4H-6",
+      "When": {
+        "Hearts:ItsBenterKarl": "{{Range: 4, 5}}"
+      }
+    },
+    {
+      "Name": "KarlRegularDialogue",
+      "Value": "0H-3, 2H-2, 2H-4, 4H-3, 4H-5, 4H-6, 6H-1, 6H-2, 6H-3, 6H-4, 6H-5, 6H-6, 6H-7, 6H-8, 6H-9",
+      "When": {
+        "Hearts:ItsBenterKarl": "{{Range: 6, 7}}"
+      }
+    },
+    {
+      "Name": "KarlRegularDialogue",
+      "Value": "0H-3, 2H-2, 2H-4, 4H-5, 4H-6, 6H-3, 6H-4, 6H-6, 6H-7, 6H-8, 6H-9, 8H-1, 8H-2, 8H-3, 8H-4, 8H-5, 8H-6, 8H-7",
+      "When": {
+        "Hearts:ItsBenterKarl": "{{Range: 8, 9}}"
+      }
+    },
+    {
+      "Name": "KarlRegularDialogue",
+      "Value": "0H-3, 2H-2, 2H-4, 4H-5, 4H-6, 6H-3, 6H-6, 6H-7, 6H-8, 6H-9, 8H-1, 8H-2, 8H-4, 8H-5, 8H-6, 8H-7, 10H-1, 10H-2, 10H-3, 10H-4, 10H-5, 10H-6, 10H-7, 10H-8",
+      "When": {
+        "Hearts:ItsBenterKarl": "10"
+      }
+    },
+    {
+      "Name": "KarlRegularDialogue",
+      "Value": "Merge: {{KarlRegularDialogue}}, 2H-Summer-1, 2H-Summer-2",
+      "When": {
+        "Hearts:ItsBenterKarl": "{{Range: 2, 3}}",
+        "Season": "Summer"
+      }
+    },
+    {
+      "Name": "KarlRegularDialogue",
+      "Value": "Merge: {{KarlRegularDialogue}}, 2H-Summer-1, 2H-Summer-2, 4H-Summer-1",
+      "When": {
+        "Hearts:ItsBenterKarl": "{{Range: 4, 7}}",
+        "Season": "Summer"
+      }
+    },
+    {
+      "Name": "KarlRegularDialogue",
+      "Value": "Merge: {{KarlRegularDialogue}}, 2H-Summer-1, 2H-Summer-2, 4H-Summer-1, 8H-Summer-1",
+      "When": {
+        "Hearts:ItsBenterKarl": "{{Range: 8, 10}}",
+        "Season": "Summer"
+      }
+    },
+    {
+      "Name": "KarlRegularDialogue",
+      "Value": "Merge: {{KarlRegularDialogue}}, 8H-Fall-1",
+      "When": {
+        "Hearts:ItsBenterKarl": "{{Range: 8, 10}}",
+        "Season": "Fall"
+      }
+    },
+    {
+      "Name": "KarlRegularDialogue",
+      "Value": "Merge: {{KarlRegularDialogue}}, 0H-Winter-1",
+      "When": {
+        "Hearts:ItsBenterKarl": "{{Range: 0, 1}}",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Name": "KarlRegularDialogue",
+      "Value": "Merge: {{KarlRegularDialogue}}, 0H-Winter-1, 2H-Winter-1",
+      "When": {
+        "Hearts:ItsBenterKarl": "{{Range: 2, 3}}",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Name": "KarlRegularDialogue",
+      "Value": "Merge: {{KarlRegularDialogue}}, 0H-Winter-1, 2H-Winter-1, 4H-Winter-1",
+      "When": {
+        "Hearts:ItsBenterKarl": "{{Range: 4, 7}}",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Name": "KarlRegularDialogue",
+      "Value": "Merge: {{KarlRegularDialogue}}, 0H-Winter-1, 2H-Winter-1, 4H-Winter-1, 8H-Winter-1",
+      "When": {
+        "Hearts:ItsBenterKarl": "{{Range: 8, 9}}",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Name": "KarlRegularDialogue",
+      "Value": "Merge: {{KarlRegularDialogue}}, 0H-Winter-1, 4H-Winter-1, 8H-Winter-1",
+      "When": {
+        "Hearts:ItsBenterKarl": "10",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Name": "KarlRegularDialogue",
+      "Value": "Merge: {{KarlRegularDialogue}}, 10H-Class-1, 10H-Class-2, 10H-Class-3, 10H-Class-4, 10H-Class-5",
+      "When": {
+        "HasSeenEvent |contains=ItsBenter.VisitingTales_Karl05": true
+      }
+    },
+    //Diane dialogue randomization
     {
       "Name": "DianeRegularDialogue",
-      "Value": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 00H-2, 00H-3, 00H-4, 00H-5, 00H-6, 00H-7}}}}",
+      "Value": "00H-1, 00H-2, 00H-3, 00H-4, 00H-5, 00H-6, 00H-7",
     },
     {
       "Name": "DianeRegularDialogue",
-      "Value": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 00H-2, 00H-3, 00H-4, 00H-6, 02H-1, 02H-2, 02H-3, 02H-4, 02H-5, 02H-6, 02H-7, 02H-8, 02H-9}}}}",
+      "Value": "00H-1, 00H-2, 00H-3, 00H-4, 00H-6, 02H-1, 02H-2, 02H-3, 02H-4, 02H-5, 02H-6, 02H-7, 02H-8, 02H-9",
       "When": {
         "Hearts:ItsBenterDiane": "{{Range: 2, 3}}"
       }
     },
     {
       "Name": "DianeRegularDialogue",
-      "Value": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 00H-6, 02H-1, 02H-3, 02H-4, 02H-6, 02H-7, 02H-9, 04H-1, 04H-2, 04H-3, 04H-4, 04H-5, 04H-6, 04H-7, 04H-8, 04H-9}}}}",
+      "Value": "00H-1, 00H-6, 02H-1, 02H-3, 02H-4, 02H-6, 02H-7, 02H-9, 04H-1, 04H-2, 04H-3, 04H-4, 04H-5, 04H-6, 04H-7, 04H-8, 04H-9",
       "When": {
         "Hearts:ItsBenterDiane": "{{Range: 4, 5}}",
       }
     },
     {
       "Name": "DianeRegularDialogue",
-      "Value": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 00H-6, 02H-1, 02H-3, 02H-4, 02H-6, 02H-7, 02H-9, 04H-1, 04H-2, 04H-3, 04H-4, 04H-5, 04H-6, 04H-7, 04H-8, 04H-9, 04H-Spring-1, 04H-Spring-2, 04H-Spring-3}}}}",
+      "Value": "00H-1, 00H-6, 02H-1, 02H-3, 02H-4, 02H-6, 02H-7, 02H-9, 04H-1, 04H-2, 04H-3, 04H-4, 04H-5, 04H-6, 04H-7, 04H-8, 04H-9, 04H-Spring-1, 04H-Spring-2, 04H-Spring-3",
       "When": {
         "Hearts:ItsBenterDiane": "{{Range: 4, 5}}",
         "Season": "Spring"
@@ -54,21 +174,21 @@
     },
     {
       "Name": "DianeRegularDialogue",
-      "Value": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 02H-3, 02H-6, 02H-7, 02H-9, 04H-1, 04H-2, 04H-3, 04H-4, 04H-5, 04H-6, 04H-7, 04H-8, 04H-9, 06H-1, 06H-2, 06H-3, 06H-4, 06H-5, 06H-6, 06H-7, 06H-8, 06H-9, 06H-10}}}}",
+      "Value": "00H-1, 02H-3, 02H-6, 02H-7, 02H-9, 04H-1, 04H-2, 04H-3, 04H-4, 04H-5, 04H-6, 04H-7, 04H-8, 04H-9, 06H-1, 06H-2, 06H-3, 06H-4, 06H-5, 06H-6, 06H-7, 06H-8, 06H-9, 06H-10",
       "When": {
         "Hearts:ItsBenterDiane": "{{Range: 6, 7}}",
       }
     },
     {
       "Name": "DianeRegularDialogue",
-      "Value": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 02H-3, 02H-6, 02H-9, 04H-1, 04H-2, 04H-3, 04H-4, 04H-5, 04H-8, 06H-1, 06H-2, 06H-3, 06H-5, 06H-6, 06H-7, 06H-8, 06H-9, 06H-10, 08H-1, 08H-2, 08H-3, 08H-4, 08H-5, 08H-6, 08H-7, 08H-8, 08H-9}}}}",
+      "Value": "00H-1, 02H-3, 02H-6, 02H-9, 04H-1, 04H-2, 04H-3, 04H-4, 04H-5, 04H-8, 06H-1, 06H-2, 06H-3, 06H-5, 06H-6, 06H-7, 06H-8, 06H-9, 06H-10, 08H-1, 08H-2, 08H-3, 08H-4, 08H-5, 08H-6, 08H-7, 08H-8, 08H-9",
       "When": {
         "Hearts:ItsBenterDiane": "{{Range: 8, 9}}",
       }
     },
     {
       "Name": "DianeRegularDialogue",
-      "Value": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 02H-3, 02H-9, 04H-1, 04H-3, 04H-4, 04H-5, 04H-8, 06H-1, 06H-2, 06H-3, 06H-5, 06H-6, 06H-7, 06H-8, 06H-9, 06H-10, 08H-1, 08H-2, 08H-3, 08H-5, 08H-6, 08H-7, 08H-8, 08H-9, 10H-1, 10H-2, 10H-3, 10H-4, 10H-5, 10H-6, 10H-7, 10H-8, 10H-9, 10H-10}}}}",
+      "Value": "00H-1, 02H-3, 02H-9, 04H-1, 04H-3, 04H-4, 04H-5, 04H-8, 06H-1, 06H-2, 06H-3, 06H-5, 06H-6, 06H-7, 06H-8, 06H-9, 06H-10, 08H-1, 08H-2, 08H-3, 08H-5, 08H-6, 08H-7, 08H-8, 08H-9, 10H-1, 10H-2, 10H-3, 10H-4, 10H-5, 10H-6, 10H-7, 10H-8, 10H-9, 10H-10",
       "When": {
         "Hearts:ItsBenterDiane": "10",
         "HasSeenEvent |contains=ItsBenter.VisitingTales_Diane06": false
@@ -76,7 +196,7 @@
     },
     {
       "Name": "DianeRegularDialogue",
-      "Value": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 02H-3, 02H-9, 04H-1, 04H-3, 04H-4, 04H-5, 04H-8, 06H-1, 06H-2, 06H-3, 06H-5, 06H-6, 06H-7, 06H-8, 06H-9, 06H-10, 08H-1, 08H-2, 08H-3, 08H-5, 08H-6, 08H-7, 08H-8, 08H-9, 10H-1, 10H-2, 10H-3, 10H-4, 10H-5, 10H-6, 10H-7, 10H-8, 10H-9, 10H-10, 10H-Curator-1, 10H-Curator-2, 10H-Curator-3, 10H-Curator-4, 10H-Curator-5, 10H-Curator-6}}}}",
+      "Value": "00H-1, 02H-3, 02H-9, 04H-1, 04H-3, 04H-4, 04H-5, 04H-8, 06H-1, 06H-2, 06H-3, 06H-5, 06H-6, 06H-7, 06H-8, 06H-9, 06H-10, 08H-1, 08H-2, 08H-3, 08H-5, 08H-6, 08H-7, 08H-8, 08H-9, 10H-1, 10H-2, 10H-3, 10H-4, 10H-5, 10H-6, 10H-7, 10H-8, 10H-9, 10H-10, 10H-Curator-1, 10H-Curator-2, 10H-Curator-3, 10H-Curator-4, 10H-Curator-5, 10H-Curator-6",
       "When": {
         "Hearts:ItsBenterDiane": "10",
         "HasSeenEvent |contains=ItsBenter.VisitingTales_Diane06": true
