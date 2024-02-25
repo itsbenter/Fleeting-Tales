@@ -1,12 +1,12 @@
 ﻿{
-  "$schema":"https://smapi.io/schemas/content-patcher.json",
-  "Format": "1.30.0",
+  "$schema": "https://smapi.io/schemas/content-patcher.json",
   "Changes": [
     {
       "Action": "EditData",
       "Target": "Characters/Dialogue/ItsBenterKarl",
-      "Entries": {
-        
+      "Entries": { 
+        "Fri": "{{i18n:ItsBenterKarl.Dialogue.{{Random:{{KarlRegularDialogue}}}}}}",
+        "Sat": "{{i18n:ItsBenterKarl.Dialogue.{{Random:{{KarlRegularDialogue}}}}}}",
       }
     }
   ]
