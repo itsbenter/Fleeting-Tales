@@ -5,9 +5,9 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/ItsBenterDiane",
       "Entries": { 
-        "Mon": "{{DianeRegularDialogue}}",
-        "Tue": "{{DianeRegularDialogue}}",
-        "Wed": "{{DianeRegularDialogue}}",
+        "Mon": "{{i18n:ItsBenterDiane.Dialogue.{{Random:{{DianeRegularDialogue}}}}}}",
+        "Tue": "{{i18n:ItsBenterDiane.Dialogue.{{Random:{{DianeRegularDialogue}}}}}}",
+        "Wed": "{{i18n:ItsBenterDiane.Dialogue.{{Random:{{DianeRegularDialogue}}}}}}",
       }
     }
   ]
